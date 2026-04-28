@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container bg-black flex">
+
+        <div class="left ">
+            <div class="close"><img src="images/close.svg" alt="close"></div>
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img width="120" src="images/logo1.svg" alt="logo"></div>
+                <ul>
+                    <li><img src="images/home.svg" alt="Home">Home</li>
+                    <li><img src="images/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded p-1">
+                <div class="heading ">
+                    <img src="images/playlist.svg" alt="playlist">
+                    <h2>Your Library</h2>
+                </div>
+                <div class="songList">
+                    <ul>
+                        <!-- <li>
+                            <img src="music.svg" alt="music">
+                            <div class="info">
+                                <div>Song Name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <div class="playnow">
+                                <span>Play Now</span>
+                                <img src="play.svg" alt="Play Button">
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="footer ">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="right border bg-grey">
+            <div class="header">
+                <div class="nav flex">
+                    <div class="hamburger "><img src="images/hamburger.svg" alt="hamburger"></div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyplaylist">
+                <div class="cardcontainer">
+
+                    <div data-folder="Love" class="card justify-center p-1">
+                        <img style="display: block;-webkit-user-select: none;margin: auto;transition: background-color 300ms;"
+                            src="https://marketplace.canva.com/EAGGy-v2HSg/2/0/1600w/canva-black-and-white-typographic-love-songs-playlist-cover-DDntNQtXtxg.jpg">
+                        <h3 class="playlist-title">Love Songs</h3>
+                        <div class="card-play-btn">
+                            <img src="images/play-green.svg" alt="Play">
+                        </div>
+                        <p class="playlist-desc">Feel the romance in every beat ❤️</p>
+                    </div>
+                    <div data-folder="Motivation" class="card justify-center p-1">
+                        <img style="display: block;-webkit-user-select: none;margin: auto;transition: background-color 300ms;"
+                            src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8451b21563226f0f3f208adb02">
+                        <h3 class="playlist-title">Motivation Boost</h3>
+                        <div class="card-play-btn">
+                            <img src="images/play-green.svg" alt="Play">
+                        </div>
+                        <p class="playlist-desc">Power up your day with energy ⚡</p>
+
+                    </div>
+                    <div data-folder="Sad" class="card justify-center p-1">
+                        <img style="display: block;-webkit-user-select: none;margin: auto;transition: background-color 300ms;"
+                            src="https://marketplace.canva.com/EAEdft48JIs/1/0/1600w/canva-orange-skyline-tumblr-aesthetic-love-songs-playlist-cover-mCNRRGaWFgU.jpg">
+                        <h3 class="playlist-title">Tearful Tunes</h3>
+                        <div class="card-play-btn">
+                            <img src="images/play-green.svg" alt="Play">
+                        </div>
+                        <p class="playlist-desc">When words fail, let the music speak 💔</p>
+
+                    </div>
+                    <div data-folder="Bhaktimarg" class="card justify-center p-1">
+                        <img width="150px" src="https://i.scdn.co/image/ab67616d00001e026d9a2050e82ce05424dca5aa"
+                            alt="playlist cover">
+                        <h3 class="playlist-title">Bhakti Marg</h3>
+                        <div class="card-play-btn">
+                            <img src="images/play-green.svg" alt="Play">
+                        </div>
+                        <p class="playlist-desc">Peaceful devotion for your soul 🙏</p>
+                    </div>
+                    <div data-folder="ChillVibes" class="card justify-center p-1">
+                        <img style="display: block;-webkit-user-select: none;margin: auto;transition: background-color 300ms;"
+                            src="https://i1.sndcdn.com/artworks-TJI4zTVsyZI8lvKf-WlWHbw-t500x500.jpg">
+                        <h3 class="playlist-title">Chill Vibes</h3>
+                        <div class="card-play-btn">
+                            <img src="images/play-green.svg" alt="Play">
+                        </div>
+                        <p class="playlist-desc">Relax and unwind with mellow tunes 🌙</p>
+                    </div>
+                    <div data-folder="party" class="card justify-center p-1">
+                        <img style="display: block;-webkit-user-select: none;margin: auto;transition: background-color 300ms;"
+                            src="https://i1.sndcdn.com/artworks-1WdnzXGLv6xkD0Ad-YrkQAg-t1080x1080.jpg">
+                        <h3 class="playlist-title">Party Hits</h3>
+                        <div class="card-play-btn">
+                            <img src="images/play-green.svg" alt="Play">
+                        </div>
+                        <p class="playlist-desc">Turn up the night with bangers 🎉</p>
+                    </div>
+                    <div data-folder="Garba" class="card justify-center p-1">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84810e7e6e55e571a3dace89d5"
+                            data-testid="card-image" alt="">
+                        <h3 class="playlist-title">Navratri Beats</h3>
+                        <div class="card-play-btn">
+                            <img src="images/play-green.svg" alt="Play">
+                        </div>
+                        <p class="playlist-desc">Dance to the spirit of Garba 💃🕺</p>
+                    </div>
+                  
+                    <div data-folder="90s" class="card justify-center p-1">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://i.scdn.co/image/ab67706f00000002e28bd8b2f8dbeaf9130d96f9"
+                            data-testid="card-image" alt="">
+                        <h3 class="playlist-title">90s Classics</h3>
+                        <div class="card-play-btn">
+                            <img src="images/play-green.svg" alt="Play">
+                        </div>
+                        <p class="playlist-desc">Rewind to golden hits of the 90s 🎶</p>
+                    </div>
+                    <div data-folder="Hollywood" class="card justify-center p-1">
+                        <img aria-hidden="false" draggable="false" loading="lazy"
+                            src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO0iMAQU-default.jpg"
+                            data-testid="card-image" alt="">
+                        <h3 class="playlist-title">Hollywood Hits</h3>
+                        <div class="card-play-btn">
+                            <img src="images/play-green.svg" alt="Play">
+                        </div>
+                        <p class="playlist-desc">The best of pop, rock, and beyond 🌎</p>
+                    </div>
+
+
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="abovebar">
+
+                        <div class="songinfo"></div>
+                        <div class="songbuttons">
+                            <img id="previous" src="images/previous.svg" alt="Previous">
+                            <img id="play" src="images/play.svg" alt="Play">
+                            <img id="next" src="images/nextsong.svg" alt="Next">
+
+                        </div>
+                        <div class="songtime">
+                            <span class="current-time">00:00</span>
+                            <div class="timevol">
+                                <img width="20px" class="volume-icon mute-button" src="images/volume.svg" alt="volume">
+                                <div class="range">
+                                    <input type="range" name="volume">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+
+</html>

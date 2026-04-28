@@ -1,0 +1,37 @@
+[
+    {
+    "title": "background",
+    "artist": "Arijit Singh",
+    "Audio_URL": "songs/ChillVibes/background.mp3"
+  }
+  ,{
+    "title": "chill-lofi",
+    "artist": "Arijit Singh",
+    "Audio_URL": "songs/ChillVibes/chill-lofi.mp3"
+  }
+  ,{
+    "title": "cuite_japan",
+    "artist": "Arijit Singh",
+    "Audio_URL": "songs/ChillVibes/cutie_japan.mp3"
+  }
+  ,{
+    "title": "Good_night",
+    "artist": "Arijit Singh",
+    "Audio_URL": "songs/ChillVibes/Good_night.mp3"
+  }
+  ,{
+    "title": "Rainy_lofi",
+    "artist": "Arijit Singh",
+    "Audio_URL": "songs/ChillVibes/Rainy_lofi.mp3"
+  }
+  ,{
+    "title": "Summer_lofi",
+    "artist": "Arijit Singh",
+    "Audio_URL": "songs/ChillVibes/Summer_lofi.mp3"
+  }
+  ,{
+    "title": "winter",
+    "artist": "Arijit Singh",
+    "Audio_URL": "songs/ChillVibes/winter.mp3"
+  }  
+]
